@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.javi.springboot.backend.mvc.models.entity.Cliente;
 import com.javi.springboot.backend.mvc.models.services.IClienteService;
 
-@CrossOrigin(origins = {"http://localhost:8100"})
+@CrossOrigin
 @RestController
 @RequestMapping("/api")
 
